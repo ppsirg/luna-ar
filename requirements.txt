@@ -1,0 +1,5 @@
+pyyaml
+# htmlmin
+pytest
+icecream
+black

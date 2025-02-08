@@ -1,0 +1,33 @@
+# Ignore virtual environment
+env/
+__pycache__/
+*.pyc
+
+# Ignore node modules (JavaScript packages)
+node_modules/
+package-lock.json
+
+# Ignore build output
+dist/
+build/
+
+# Ignore IDE files and configurations
+.idea/
+*.iml
+*~
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore log files and debugging folders
+logs/
+debug/
+
+# Additional ignores for specific operating system files or configurations
+.DS_Store
+Thumbs.db
+
+# Ignore any configuration files if they are not necessary to track
+config.json
+settings.cfg

@@ -1,5 +1,6 @@
 pyyaml
-# htmlmin
+flask
+htmlmin2
 pytest
 icecream
 black

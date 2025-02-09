@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Recursos</title>
+</head>
+<body>
+    <h1>Recursos</h1>
+    <ul>
+        {% for resource in resources %}
+            <li>
+                {{ resource.key }} - {{ resource.value.name }} [
+                <a href="/vr/aframe/{{ resource.key }}" target="_blank">
+                    aframe
+                </a> - 
+                <a href="/vr/three/{{ resource.key }}" target="_blank">
+                    three
+                </a>
+                ]
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

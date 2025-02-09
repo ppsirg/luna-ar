@@ -1,6 +1,12 @@
+# custom
+vr-resources/
+datastorage.pickle
+datastorage
+
 # Ignore virtual environment
 env/
 __pycache__/
+.pytest_cache/
 *.pyc
 
 # Ignore node modules (JavaScript packages)
